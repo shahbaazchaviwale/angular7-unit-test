@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let link of pageList; index as i ">
+    <a class="{{link.name}}_{{i}}" routerLink="{{link.link}}">{{link.name}}</a>
+  </li>
+</ul>
